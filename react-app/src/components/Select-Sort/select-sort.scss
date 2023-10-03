@@ -1,0 +1,31 @@
+.select-sort,
+.ss-options {
+    display: inline-block;
+    background-color: #015366;
+    width: 300px;
+
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+.select-sort {
+    position: relative;
+    // width: 270px;
+    button {
+        background-color: transparent;
+        font-size: 20px;
+        color: #e0f4f5;
+    }
+}
+.ss-options {
+    position: absolute;
+    z-index: 2;
+    top: 35px;
+    left: 0;
+    button {
+        cursor: pointer;
+        // padding: 2px 0;
+        line-height: 27px;
+    }
+}

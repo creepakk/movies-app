@@ -1,0 +1,36 @@
+.filter-select {
+    margin-top: 5px;
+    width: 180px;
+    span {
+        display: block;
+        margin-bottom: 5px;
+    }
+    .fs-options {
+        max-height: 270px;
+
+        overflow: auto;
+    }
+
+    button {
+        background-color: transparent;
+        font-size: 17px;
+        color: #e0f4f5;
+    }
+}
+.fs-option {
+    input {
+        outline: none;
+        border: none;
+        background-color: transparent;
+    }
+    label {
+        user-select: none;
+        margin-left: 5px;
+        line-height: 25px;
+
+        // white-space: pre-wrap;
+        // height: max-content;
+
+        width: 120px;
+    }
+}
